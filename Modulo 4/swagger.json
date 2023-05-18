@@ -1,0 +1,19 @@
+{
+    "openapi": "3.0.1",
+    "info": {
+        "title": "Testes API",
+        "description": "Documentation from Users Ultima.School",
+        "Version": "1.0.0"
+    },
+    "basePatch": "/",
+    "paths":{
+        "/users/":{
+            "parameters":{
+                "name": "name",
+                "password": "password",
+                "profession": "profession",
+                "type": "string"
+            }
+    }
+}
+}
