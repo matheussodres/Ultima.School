@@ -1,1 +1,69 @@
-[]
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "searchtest;search-any",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Search any",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I visit publicazo homepage",
+            "match": {
+              "location": "features\\step-definitions\\TC1.js:24"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 15001914500,
+              "error_message": "Error: function timed out, ensure the promise resolves within 15000 milliseconds\n    at Timeout.<anonymous> (C:\\Users\\mathe\\Documents\\Ultima.School\\Modulo 5\\selenium-web-driver\\node_modules\\@cucumber\\cucumber\\lib\\time.js:54:20)\n    at listOnTimeout (node:internal/timers:564:17)\n    at process.processTimers (node:internal/timers:507:7)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I search for teste",
+            "match": {
+              "location": "features\\step-definitions\\TC1.js:32"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I should see the results",
+            "match": {
+              "location": "features\\step-definitions\\TC1.js:39"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "searchtest",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "SearchTest",
+    "tags": [],
+    "uri": "features\\TC1.feature"
+  }
+]
